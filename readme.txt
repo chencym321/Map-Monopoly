@@ -1,0 +1,3 @@
+- You can download the app directly with the apk file
+- You can view the code in Step_Count file. 
+- The app can only connect to the server located in Yumin's home. If you would like to set up own server please also reconfigure the server url in the android project located in string.xml.

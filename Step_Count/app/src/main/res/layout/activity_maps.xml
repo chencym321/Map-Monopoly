@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+
+    <RelativeLayout
+        android:id="@+id/control_line"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Drawing"
+            android:background="#007fff"
+            android:onClick="draw"/>
+
+        <Button
+            android:layout_below="@id/bt_start"
+            android:id="@+id/bt_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy Building"
+            android:background="#dcdcdc"
+            android:clickable="false"
+            android:onClick="buy"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

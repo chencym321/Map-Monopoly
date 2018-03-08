@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="What is your name?"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/welcome"
+        android:layout_alignEnd="@+id/welcome"
+        android:layout_alignLeft="@+id/welcome"
+        android:layout_alignStart="@+id/welcome" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/et_name"
+        android:onClick="submit"
+        android:id="@+id/button2" />
+
+</RelativeLayout>

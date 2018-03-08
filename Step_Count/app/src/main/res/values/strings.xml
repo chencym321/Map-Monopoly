@@ -1,0 +1,11 @@
+<resources>
+    <string name="server_register" translatable="false">http://69.203.93.172:5555/register</string>
+    <string name="server_update" translatable="false">http://69.203.93.172:5555/update</string>
+    <string name="server_load" translatable="false">http://69.203.93.172:5555/load</string>
+    <string name="server_buy" translatable="false">http://69.203.93.172:5555/buy</string>
+    <string name="app_name">Walk Walk</string>
+    <string name="title_steps">Steps</string>
+    <string name="title_groups">Groups</string>
+    <string name="title_map">Map</string>
+    <string name="title_me">Me</string>
+</resources>
